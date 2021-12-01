@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/spiderman-no-way-home-ju.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header nav img{
+    width: 250px;
+   height: 100px;
+}
+.header nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-align: right;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li:hover{
+    background: red;
+    transition: 1s;
+}
+.head-text{
+    width: 90%;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.head-text h1{
+    font-size: 62px;
+}
+.head-text p{
+    margin: 10px 0 40px;
+}
+.head-text h2{
+    margin: 5px 0 40px;
+}
+.Youtube-link{
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    width: 80%;
+    padding: 12px 30px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+}
+.Youtube-link:hover{
+    border: 1px solid red;
+    background: red;
+    transition: 1s;
+}
+
+/*-----BOTTOM TEXT-----*/
+.bottom-text{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px ;
+}
+.bottom-text h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.bottom-text p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 30px;
+}
+.bottom-text iframe{
+    width: 69vh;
+    height: 257px;
+    padding-top: 50px;
+}
+
+/*IMAGES PAGE*/
+
+.header2{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.header2 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.header2 p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 25px;
+}
+.image-design{
+    width: 80vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+}
+.image-design img{
+    width: 80vh;
+    height: 300px;
+}
+.image-design h3{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.text-design{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
